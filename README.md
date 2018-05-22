@@ -1,8 +1,8 @@
 # circular-list-state-machine
-Use circular list to do a state machine
+## Use circular list to do a state machine
 
-For example
-
+### For example
+```javascript
 var state1 = {
   start: function () {
     console.log('this is state1')
@@ -30,3 +30,4 @@ sm.changeState() // this is state2
 sm.changeState() // this is state3
 sm.changeState() // this is state1
 sm.changeState() // this is state2
+```
